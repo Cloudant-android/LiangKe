@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tool:titleBarTitle="生活"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:id="@+id/circlefriends_avater"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="11dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/xia"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/circlefriends_avater"
+            android:layout_marginLeft="11dp"
+            android:textColor="#8C8C8C"
+            android:text="票圈"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/rp_arrow"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/Scan_avater"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="11dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/yu_1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/Scan_avater"
+            android:layout_marginLeft="11dp"
+            android:textColor="#8C8C8C"
+            android:text="扫一扫"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/rp_arrow"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

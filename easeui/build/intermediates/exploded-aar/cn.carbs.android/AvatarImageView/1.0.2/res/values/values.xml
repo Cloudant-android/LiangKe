@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AvatarImageView"><attr format="reference|float" name="aiv_TextSizeRatio"/><attr format="reference|float" name="aiv_TextMaskRatio"/><attr format="reference|color" name="aiv_BoarderColor"/><attr format="reference|color" name="aiv_TextColor"/><attr format="reference|dimension" name="aiv_BoarderWidth"/><attr format="reference|boolean" name="aiv_ShowBoarder"/></declare-styleable>
+    <string name="app_name">Library</string>
+</resources>
